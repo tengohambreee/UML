@@ -1,0 +1,13 @@
+@startuml 
+class Punto2D {
+- coordX: doble
+- coordY: doble
+
++ Punto2D()
++ Punto2D(x: doble, y: doble)
++ getCoordX(): doble
++ setCoordX(coordX: doble) : void 
++ getCoordY (): double
++ setCoordY (coordY: doble) : void
+}
+ @enduml
