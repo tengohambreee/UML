@@ -1,0 +1,17 @@
+@startuml 
+class Persona {
+- nombre : string 
+- apellidos : string
+- yearNacimiento : int
+
++ Persona()
++Persona(nombre: string, apellidos : string, yearNacimiento : int)
++getEdad(_currentYear: int) : int
++getNombre(): string
++ set Nombre(m_nombre : string) : void
++ getApellidos() : string
++ set Apellidos(m_apellidos : string) : void
++ getYearNacimiento() : int
++ setYearNacimiento(yearNacimiento : int) : void
+}
+ @enduml
